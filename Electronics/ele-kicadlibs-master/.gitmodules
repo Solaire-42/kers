@@ -1,0 +1,3 @@
+[submodule "KiCad/Connectors_Molex"]
+	path = KiCad/Connectors_Molex
+	url = https://github.com/KiCad/Connectors_Molex.pretty.git

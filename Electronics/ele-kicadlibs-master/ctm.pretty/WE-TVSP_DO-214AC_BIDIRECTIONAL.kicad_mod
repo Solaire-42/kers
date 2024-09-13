@@ -1,0 +1,214 @@
+(footprint "WE-TVSP_DO-214AC_BIDIRECTIONAL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WE-TVSP Power TVS Diode<br><br></b>DO-214AC  Bidirectional")
+	(property "Reference" "REF**"
+		(at 0 -2.648 0)
+		(layer "F.SilkS")
+		(uuid "e9b3abe9-7d8c-454f-a416-8b95016bbd92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-TVSP_DO-214AC_BIDIRECTIONAL"
+		(at 12.53 2.502 0)
+		(layer "F.Fab")
+		(uuid "eb4c6ee8-8254-42c5-8f7c-9c1f9a248433")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63729ce2-2f73-494a-a9ea-b471575a2fb9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80d35a8b-710c-48f2-834a-c45cf5569264")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa469b0b-0784-46a5-9f03-3c8cbd8b190e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.22 -1.2)
+		(end -2.22 -1.435)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8964c6cc-882c-4202-a4fc-7727c0c8cff7")
+	)
+	(fp_line
+		(start -2.22 1.2)
+		(end -2.22 1.435)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73a90125-afa7-4f7d-819f-e95ba2d218dd")
+	)
+	(fp_line
+		(start -2.22 1.435)
+		(end 2.22 1.435)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e722433-4056-4143-8c53-5d8ba1faa5bb")
+	)
+	(fp_line
+		(start 2.22 -1.435)
+		(end -2.22 -1.435)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97caad5d-db4d-4545-8835-44371190c810")
+	)
+	(fp_line
+		(start 2.22 -1.2)
+		(end 2.22 -1.435)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6463f655-3440-489b-842c-365f2837143b")
+	)
+	(fp_line
+		(start 2.22 1.2)
+		(end 2.22 1.435)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73db3b05-b1bb-41f5-bad6-672156e5725a")
+	)
+	(fp_poly
+		(pts
+			(xy -3.5 -1.635) (xy 3.5 -1.635) (xy 3.5 1.635) (xy -3.5 1.635)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3ad9fbaa-d70c-4ec0-a20d-72b41e0d4c95")
+	)
+	(fp_line
+		(start -2.12 -1.335)
+		(end -2.12 1.335)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83170cd2-515e-47c5-a17c-7cf166fc8045")
+	)
+	(fp_line
+		(start -2.12 -1.335)
+		(end 2.12 -1.335)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5ac0e92-4f0e-455b-b670-61011406b35c")
+	)
+	(fp_line
+		(start -2.12 1.335)
+		(end 2.12 1.335)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75d95104-e1fa-4a76-9339-921f5c40a453")
+	)
+	(fp_line
+		(start 2.12 1.335)
+		(end 2.12 -1.335)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a60d1aab-6529-4e38-a8e9-bb3138c939fa")
+	)
+	(pad "1" smd rect
+		(at -2.1 0)
+		(size 2.3 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d4a90c23-862c-4668-a9e4-64bd9a93a365")
+	)
+	(pad "2" smd rect
+		(at 2.1 0)
+		(size 2.3 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "7aadfeca-9fb6-4f61-b6a3-ad725f7e3f30")
+	)
+	(model "${KICAD_CTM}/3D-Models/Download_STP_WE-TVSP-DO214AC-Bidirectional.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KICAD_CTM}/3D-Models/Download_STP_WE-TVSP-DO-214AC-Bidirectional.stp"
+		(offset
+			(xyz 0 0 1.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

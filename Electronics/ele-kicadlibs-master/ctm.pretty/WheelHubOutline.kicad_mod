@@ -1,0 +1,81 @@
+(footprint "WheelHubOutline" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f69aca86-4c65-4808-b762-5c347cc61e6c)
+  )
+  (fp_text value "WheelHubOutline" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 878db1b4-6a7b-49f1-9a80-5a767769353c)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 44658d9f-0219-480d-8261-0be5ff662421)
+  )
+  (fp_line (start -16.643208 -17.011867) (end -26.479537 -28.327268)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp d9fbb5d0-8214-4ddc-9736-0d670660b4e3))
+  (fp_line (start -4.495607 22.334019) (end -4.499482 39.468879)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 657fe300-d28e-4507-b22f-6a0c47815964))
+  (fp_arc (start -38.955077 -15.700382) (mid -38.47467 -16.405495) (end -37.744096 -16.846217)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp e6abd234-938a-4a58-8061-2c6d66dfbff9))
+  (fp_arc (start -38.955077 15.700383) (mid -42.000001 0) (end -38.955077 -15.700383)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 6797c8ce-4a2e-48ab-9e94-d13625e3418b))
+  (fp_arc (start -37.744096 16.846217) (mid -38.47467 16.405495) (end -38.955077 15.700382)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp f2ba7bdf-fc0c-4327-ade9-7ebb164a3fa7))
+  (fp_arc (start -37.744096 16.846217) (mid -34.208004 19.75) (end -33.4613 24.264237)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 5475a04e-ba88-40e0-93ec-656ccc18a8c2))
+  (fp_arc (start -33.4613 -24.264237) (mid -34.208004 -19.75) (end -37.744096 -16.846217)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 80346c4d-999c-4a0f-b720-4279a4bbf586))
+  (fp_arc (start -33.4613 -24.264237) (mid -33.444911 -25.117294) (end -33.074469 -25.885895)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 77dfe054-b0eb-4003-a7e5-d9bdbd2db668))
+  (fp_arc (start -33.074469 25.885895) (mid -33.444911 25.117294) (end -33.4613 24.264237)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 33c6c162-7ff5-4b7a-8d47-2e7b8e8a060c))
+  (fp_arc (start -33.074468 -25.885895) (mid -32.039002 -27.156995) (end -30.954717 -28.386714)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 0dc1665a-a4bf-4cf3-b02f-d5395d31a576))
+  (fp_arc (start -30.954717 -28.386713) (mid -28.703819 -29.358826) (end -26.479537 -28.327268)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 8a9fdfbd-45f3-4241-8fef-7bdfb62aa70d))
+  (fp_arc (start -16.643209 -17.011867) (mid -16.15263 -15.702268) (end -16.639909 -14.391437)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 893110d9-d93d-42b3-8389-dadaeff9e18e))
+  (fp_arc (start -6.824456 41.441848) (mid -21.412098 36.132008) (end -33.074468 25.885895)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 0b0ce285-ca52-41c2-937e-5330f0c52e09))
+  (fp_arc (start -5.256668 21.362758) (mid -20.963197 6.674157) (end -16.639909 -14.391436)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 3a2d6a6a-34d1-4a42-a619-b89898100bf7))
+  (fp_arc (start -5.256668 21.362759) (mid -4.708473 21.717011) (end -4.495607 22.334019)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp e4f145c9-4831-4b75-bc63-249435dad126))
+  (fp_arc (start -4.499482 39.468879) (mid -5.205426 40.99336) (end -6.824456 41.441848)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp a8028d3d-65f4-42c5-8f48-757214e13989))
+  (fp_circle (center -34 0) (end -31 0)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp dbc94c46-734a-4a46-8286-d99fd6952e6c))
+  (group "" (id 1fb654c1-3607-4f4f-9daf-d774dcadc921)
+    (members
+      0b0ce285-ca52-41c2-937e-5330f0c52e09
+      0dc1665a-a4bf-4cf3-b02f-d5395d31a576
+      33c6c162-7ff5-4b7a-8d47-2e7b8e8a060c
+      3a2d6a6a-34d1-4a42-a619-b89898100bf7
+      5475a04e-ba88-40e0-93ec-656ccc18a8c2
+      657fe300-d28e-4507-b22f-6a0c47815964
+      6797c8ce-4a2e-48ab-9e94-d13625e3418b
+      77dfe054-b0eb-4003-a7e5-d9bdbd2db668
+      80346c4d-999c-4a0f-b720-4279a4bbf586
+      893110d9-d93d-42b3-8389-dadaeff9e18e
+      8a9fdfbd-45f3-4241-8fef-7bdfb62aa70d
+      a8028d3d-65f4-42c5-8f48-757214e13989
+      d9fbb5d0-8214-4ddc-9736-0d670660b4e3
+      dbc94c46-734a-4a46-8286-d99fd6952e6c
+      e4f145c9-4831-4b75-bc63-249435dad126
+      e6abd234-938a-4a58-8061-2c6d66dfbff9
+      f2ba7bdf-fc0c-4327-ade9-7ebb164a3fa7
+    )
+  )
+  (model ":KICAD_CTM:3D-Models/001796_C_1-Fischer Motor.stp"
+    (offset (xyz 0 0 -58))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model ":KICAD_CTM:3D-Models/002540_A_1-Fischer Cap v2.stp"
+    (opacity 0.3000)    (offset (xyz 0 0 -2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)

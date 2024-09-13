@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5ee9a80d-343b-44ee-8a2e-3225313e21a5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 80.01 48.26) (size 27.94 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 229 191 1.0000))
+    (uuid 0115a63d-a0cf-456b-97f7-e3c9af3d5737)
+    (property "Sheetname" "Debug and Clock" (at 80.01 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dbg_clk.kicad_sch" (at 80.01 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Schematic Snippets"
+        (path "/5ee9a80d-343b-44ee-8a2e-3225313e21a5" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 109.22 48.26) (size 27.94 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 229 191 1.0000))
+    (uuid 3168981f-bdf3-4f22-9e16-13cfd98d3873)
+    (property "Sheetname" "Supply" (at 109.22 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "supply.kicad_sch" (at 109.22 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Schematic Snippets"
+        (path "/5ee9a80d-343b-44ee-8a2e-3225313e21a5" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 50.8 48.26) (size 27.94 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 229 191 1.0000))
+    (uuid 4f510ff3-27e8-4b48-8930-92c200146f0b)
+    (property "Sheetname" "CAN" (at 50.8 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CAN.kicad_sch" (at 50.8 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Schematic Snippets"
+        (path "/5ee9a80d-343b-44ee-8a2e-3225313e21a5" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

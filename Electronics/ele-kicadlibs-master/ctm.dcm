@@ -1,0 +1,577 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP 04611.25ER
+D Fuse, small symbol
+K fuse
+F ${KICAD_CTM}\datasheets\675080.pdf
+$ENDCMP
+#
+$CMP 140356145400
+D Optocoupler, Vce 80V, CTR 300-600%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
+F ${KICAD_CTM}\datasheets\140357145400.pdf
+$ENDCMP
+#
+$CMP 150141RS63130
+D Light emitting diode
+K LED diode
+F ${KICAD_CTM}/datasheets/150141RS63130.pdf
+$ENDCMP
+#
+$CMP 1N4148WTQ-7
+D 80V 250mA(0,1s) Fast switching Diode, automotive, SOD-523
+K diode
+F ${KICAD_CTM}/datasheets/1N4148WTQ-7.pdf
+$ENDCMP
+#
+$CMP 1N4448HWS-7-F
+D 57V 0.5A Fast switching Diode, SOD-323
+K diode
+F ${KICAD_CTM}/datasheets/0900766b81325302.pdf
+$ENDCMP
+#
+$CMP 2N3906
+D General Purpose PNP Transistor Silicon
+K General Purpose PNP Transistor Silicon
+F ${KICAD_CTM}/datasheets/2N3906.pdf
+$ENDCMP
+#
+$CMP 2N4401
+D General Purpose Transistors NPN Silicon
+K General Purpose Transistors NPN Silicon
+F ${KICAD_CTM}/datasheets/2N4401.pdf
+$ENDCMP
+#
+$CMP 434121025816
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ${KICAD_CTM}\datasheets\434121025816.pdf
+$ENDCMP
+#
+$CMP 74404054150
+D Inductor, WE-LQS SMT Power Inductor
+K inductor choke coil reactor magnetic
+F ${KICAD_CTM}\datasheets\74404054150.pdf
+$ENDCMP
+#
+$CMP 74404054330
+D Inductor, WE-LQS SMT Power Inductor
+K inductor choke coil reactor magnetic
+F ${KICAD_CTM}\datasheets\74404054330.pdf
+$ENDCMP
+#
+$CMP 744235510
+D Common Mode Line Filter, 0.2A 51uH
+K inductor choke coil reactor magnetic coupled
+F ${KICAD_CTM}\datasheets\744235510.pdf
+$ENDCMP
+#
+$CMP 744242510
+D Common Mode Line Filter, 0.2A 51uH
+K inductor choke coil reactor magnetic coupled
+F ${KICAD_CTM}\datasheets\744242510.pdf
+$ENDCMP
+#
+$CMP 744774127
+D Inductor, WE-LQS SMT Power Inductor, 1.19A, 5848
+K inductor choke coil reactor magnetic
+F ${KICAD_CTM}\datasheets\744774127.pdf
+$ENDCMP
+#
+$CMP 744774147
+D Inductor, WE-LQS SMT Power Inductor
+K inductor choke coil reactor magnetic
+F ${KICAD_CTM}\datasheets\744774147-1722592.pdf
+$ENDCMP
+#
+$CMP 744775122
+D Inductor, WE-LQS SMT Power Inductor
+K inductor choke coil reactor magnetic
+F ${KICAD_CTM}\datasheets\744775122-1722846.pdf
+$ENDCMP
+#
+$CMP 744775127
+D Inductor, WE-LQS SMT Power Inductor
+K inductor choke coil reactor magnetic
+F ${KICAD_CTM}\datasheets\744775127-1722728.pdf
+$ENDCMP
+#
+$CMP 744776182
+D Inductor, WE-LQS SMT Power Inductor
+K inductor choke coil reactor magnetic
+F ${KICAD_CTM}\datasheets\744776182.pdf
+$ENDCMP
+#
+$CMP 7461066
+D würth Pressfit
+K connector
+F ${KICAD_CTM}\datasheets\7461066-1723467.pdf
+$ENDCMP
+#
+$CMP 7461101
+D WP-RATR REDCUBE PRESS-FIT right angled, two-rows, M3
+K connector
+F ${KICAD_CTM}/datasheets/7461101.pdf
+$ENDCMP
+#
+$CMP 7490140117C
+D Würth Elektronik 7490140117C
+K BMS Transformer common mode choke
+F ${KICAD_CTM}\datasheets\7490140117C.pdf
+$ENDCMP
+#
+$CMP 74HC20PW,118
+D Dual 4 inputs Nand
+K CMOS Nand4
+F ${KICAD_CTM}\datasheets\NEXP_S_A0002882020_1-2525087.pdf
+$ENDCMP
+#
+$CMP 74LV1T87GVH
+D Single Xnor 2 inputs
+K CMOS XNOR
+F ${KICAD_CTM}\datasheets\74LV1T87.pdf
+$ENDCMP
+#
+$CMP 74LVC1G10
+D Single NAND 3 Input Gate, Low-Voltage CMOS
+K Single Gate NAND triple LVC CMOS
+F ${KICAD_CTM}/datasheets/74LVC1G10.pdf
+$ENDCMP
+#
+$CMP 74LVC1G11
+D Single AND 3 Input Gate, Low-Voltage CMOS
+K Single Gate AND triple LVC CMOS
+F ${KICAD_CTM}/datasheets/74LVC1G11.pdf
+$ENDCMP
+#
+$CMP 74LVC1G86
+D Single 2-input XOR
+K CMOS XOR2
+F ${KICAD_CTM}/datasheets/74LVC1G86.pdf
+$ENDCMP
+#
+$CMP 750315228
+D Power Transformers MID-PPMAX Push Pull Frq 550kHz
+K Power Transformers
+F ${KICAD_CTM}\datasheets\750315228.pdf
+$ENDCMP
+#
+$CMP 830003156B
+D HC49/4H 8MHz Wuerth Quartz Crystal
+F ${KICAD_CTM}/datasheets/830003156B.pdf
+$ENDCMP
+#
+$CMP 865080653016
+D Polarized capacitor, US symbol
+K cap capacitor
+F ${KICAD_CTM}\datasheets\865080653016-1726686.pdf
+$ENDCMP
+#
+$CMP AIR_Generic
+F ${KICAD_CTM}/datasheets/GIGAVAC_Relais.pdf
+$ENDCMP
+#
+$CMP BAS321
+D General purpose diode
+K Diode
+F ${KICAD_CTM}/BAS321-1598180.pdf
+$ENDCMP
+#
+$CMP BC847C
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F ${KICAD_CTM}\datasheets\BC846ALT1_D-2310268.pdf
+$ENDCMP
+#
+$CMP BC857C
+D 0.2A Ic, 45V Vce, PNP Transistor, SOT-23
+K PNP Transistor
+F ${KICAD_CTM}\datasheets\BC856_BC857_BC858.pdf
+$ENDCMP
+#
+$CMP BD9060
+D Buck Converter
+F ${KICAD_CTM}/datasheets/bd9060xxx-c-e-1874416.pdf
+$ENDCMP
+#
+$CMP BDT65C
+D Silicon Darlington Power Transistor
+F ${KICAD_CTM}/datasheets/BDT65C.pdf
+$ENDCMP
+#
+$CMP BSS308PE
+D P-MOSFET transistor, gate/source/drain
+K transistor PMOS P-MOS P-MOSFET
+F ${KICAD_CTM}\datasheets\Infineon-BSS308PE-DS-v02_03-en.pdf
+$ENDCMP
+#
+$CMP CD4043BPWR
+D SR-FlipFlop Quad CMOS 3-State
+K SR-FlipFlop Quad CMOS 3-State
+F ${KICAD_CTM}/datasheets/cd4043b.pdf
+$ENDCMP
+#
+$CMP CD4052BE
+D 8 channel analog multiplexer/demultiplexer
+K Mux
+F ${KICAD_CTM}\datasheets\cd4052b.pdf
+$ENDCMP
+#
+$CMP CLF10040T-330M-H
+D Inductor symbol for simulation only
+K simulation
+F ${KICAD_CTM}/datasheets/tdkcs29562-1.pdf
+$ENDCMP
+#
+$CMP CPC1215
+D Solid State Relay
+F ${KICAD_CTM}\datasheets\CPC1215-275719.pdf
+$ENDCMP
+#
+$CMP CP_Small
+D Polarized capacitor, small symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP DHAB_S133
+D Current Sensor (Hall Effect)
+K Current Sensor
+F ${KICAD_CTM}/datasheets/dhab_s_133.pdf
+$ENDCMP
+#
+$CMP DMN61D8LQ
+D INTEGRATED RELAY AND INDUCTIVE LOAD DRIVER, R_DS(ON) = 1.8? @ V_GS = 5V
+K INDUCTIVE LOAD DRIVER
+F ${KICAD_CTM}/datasheets/DMN61D8LQ.pdf
+$ENDCMP
+#
+$CMP DMP510DL-7
+D MOSFET P-Ch Enh Mode FET 310mW -50Vdss 30Vgss
+F ${KICAD_CTM}/datasheets/DMP510DL-7.pdf
+$ENDCMP
+#
+$CMP DST1045S
+D Schottky diode 10A
+K diode Schottky
+F ${KICAD_CTM}\datasheets\2330701.pdf
+$ENDCMP
+#
+$CMP ECX-306_32768Hz
+D Quarz Oscillator 32768Hz
+F ${KICAD_CTM}/datasheets/ecx-306x-11191.pdf
+$ENDCMP
+#
+$CMP EPT3100-16000-B-5
+D Pressure Sensor
+K Pressure Sensor
+F ${KICAD_CTM}/datasheets/EPT3100_Drucksensor.pdf
+$ENDCMP
+#
+$CMP FDN352AP
+D P-Channel Logic Level MOSFET
+K p-channel
+F ${KICAD_CTM}/datasheets/FDN352AP.pdf
+$ENDCMP
+#
+$CMP FR4_3_port
+D FR4 3-port Filter 868MHz and 1090Mhz
+$ENDCMP
+#
+$CMP FTR-LYCA024Y
+D 6A Slim Type Power Relay
+K Fujitsu
+F ${KICAD_CTM}/datasheets/fujitsu_FTR_LYCA024Y.pdf
+$ENDCMP
+#
+$CMP GIGAVAC_G81B
+D DISCHARGE relay
+K SPST 1P1T
+F $(KICAD_CTM)/datasheets/GIGAVAC_g81b.pdf
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDH
+D Power symbol creates a global label with name "GNDH" , ground High
+K power-flag
+$ENDCMP
+#
+$CMP GNDL
+D Power symbol creates a global label with name "GNDL" , ground Low
+K power-flag
+$ENDCMP
+#
+$CMP GRF2070
+D Guerilla Low Noise Amplifier
+K LNA
+F ${KICAD_CTM}/datasheets/GRF2070DS.pdf
+$ENDCMP
+#
+$CMP GRF2080
+D Guerilla Low Noise Amplifier
+K LNA
+F ${KICAD_CTM}/datasheets/GRF2080DS.pdf
+$ENDCMP
+#
+$CMP Gigavac_G81C
+D Gigavac G81C, SPDT relay
+K spdt relay
+F ${KICAD_CTM}\datasheets\g81c.pdf
+$ENDCMP
+#
+$CMP HX1188NL
+D Pulse BMS Transformer HX1188NL
+K BMS Transformer common mode choke
+F ${KICAD_CTM}\datasheets\HX1188NL-revH.pdf
+$ENDCMP
+#
+$CMP ICM-20689
+D High Performance 6-Axis MEMS MotionTracking™ Device
+F $(KICAD_CTM)/datasheets/ICM-20689.pdf
+$ENDCMP
+#
+$CMP IFX1051SJ
+D Industrial High Speed CAN-FD Transceiver
+F ${KICAD_CTM}\datasheets\Infineon-IFX1051LE-DS-v01_00-EN.pdf
+$ENDCMP
+#
+$CMP INA211
+F ${KICAD_CTM}\datasheets\ina211.pdf
+$ENDCMP
+#
+$CMP INA213
+D voltage-output,current-shunt monitor
+F ${KICAD_CTM}\datasheets\ina211.pdf
+$ENDCMP
+#
+$CMP IPD053N06N
+D OptiMOS N-Channnel Power Transistor Vds 60V 5.3mOhm Id45A
+F ${KICAD_CTM}/datasheets/IPD053N06N.pdf
+$ENDCMP
+#
+$CMP IPP055N03LG
+D OptiMOS N-Channnel Power Transistor Vds 30V 5.5mOhm Id50A
+F ${KICAD_CTM}/datasheets/IPP055N03L_rev1.04-522939
+$ENDCMP
+#
+$CMP IRLML6346TRPbf
+D HEXFET Power N-Channel MOSFET Vds30V 80mOhm
+K N-Channel Mosfet
+F ${KICAD_CTM}/datasheets/irlml6346pbf.pdf
+$ENDCMP
+#
+$CMP IRLML9303TRPbf
+D HEXFET Power P-Channel MOSFET Vds -30V 270mOhm
+K P-Channel Mosfet
+F ${KICAD_CTM}/datasheets/irlml9303pbf.pdf
+$ENDCMP
+#
+$CMP ISC058N04NM5ATMA1
+D 63A Id, 40V Vds, Infineon N-Channel Power MOSFET, 5.8mOhm Ron, Qg (typ) 12nC, SON8 5x6mm
+K Infineon Power MOSFET N-MOS
+F ${KICAD_CTM}\datasheets\Infineon-ISC058N04NM5-DataSheet-v02_01-EN.pdf
+$ENDCMP
+#
+$CMP L9616
+D High-Speed CAN Transceiver, 4Mbps, 3.3V or 5V supply, DFN-8
+K High-Speed CAN Transceiver
+F ${KICAD_CTM}/datasheets/l9616.pdf
+$ENDCMP
+#
+$CMP LDL1117S33R
+D low dropout linear regulator
+K linear regulator ldo fixed positive
+F ${KICAD_CTM}\datasheets\2259188.pdf
+$ENDCMP
+#
+$CMP LED_Wuerth_Green
+D Sampled LED - 150080VS75000
+K Wuerth LED
+F ${KICAD_CTM}/datasheets/150080VS75000.pdf
+$ENDCMP
+#
+$CMP LED_Wuerth_Red
+D Sampled LED from Wuerth - 150080RS75000
+K Wuerth LED
+F ${KICAD_CTM}/datasheets/150080RS75000.pdf
+$ENDCMP
+#
+$CMP LEM_DHAB_S133_generic
+F ${KICAD_CTM}/datasheets/Stromsensor_LEM_DHAB_S133.pdf
+$ENDCMP
+#
+$CMP LF0485001.DR
+D Fuse, small symbol
+K fuse
+F ${KICAD_CTM}/datasheets/Littelfuse_Fuse_485_Datasheet_pdf-1372450.pdf
+$ENDCMP
+#
+$CMP LI24-1A85
+D SPST_NO, 1000V, 1A, 100W
+K spdt relay
+F ${KICAD_CTM}\datasheets\Meder_LI24-1A85.pdf
+$ENDCMP
+#
+$CMP LM358
+D Industry-Standard Dual Operational Amplifiers
+K Industry-Standard Dual Operational Amplifiers
+F ${KICAD_CTM}/datasheets/lm358.pdf
+$ENDCMP
+#
+$CMP LM393LV
+D Dual Comparator Rail-To-Rail Input Open Drain Output
+K Dual Comparator Rail-To-Rail Input Open Drain Output
+F ${KICAD_CTM}/datasheets/lm393lv.pdf
+$ENDCMP
+#
+$CMP LMC6762
+D Dual Comparator Rail-To-Rail Input Push-Pull Output
+K Dual Comparator Rail-To-Rail Input Push-Pull Output
+F ${KICAD_CTM}/datasheets/lmc6762.pdf
+$ENDCMP
+#
+$CMP LMR50410DBV
+D Buck Converter 1A 4-36Vin 1-28Vout SOT-23-6
+F ${KICAD_CTM}/datasheets/lmr50410.pdf
+$ENDCMP
+#
+$CMP LMV339
+D Quad General-Purpose Low-Voltage Comparator, SOIC-14/TSSOP-14
+K cmp open collector
+F https://www.st.com/resource/en/datasheet/lmv331.pdf
+$ENDCMP
+#
+$CMP LT1933
+D 600mA Step-Down Regulator in SOT-23 package, Input 3.6-36V
+F ${KICAD_CTM}/datasheets/1933fe_sot23.pdf
+$ENDCMP
+#
+$CMP LTC6810-1
+D 6 Channel Battery Stack Monitors
+F ${KICAD_CTM}/datasheets/LTC6810-1-6810-2.pdf
+$ENDCMP
+#
+$CMP LTC6811-1
+D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface
+K battery balance afe
+F ${KICAD_CTM}/datasheets/LTC6811-1-6811-2.pdf
+$ENDCMP
+#
+$CMP LTC6811-1_noniso
+D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface
+K battery balance afe
+F ${KICAD_CTM}/datasheets/LTC6811-1-6811-2.pdf
+$ENDCMP
+#
+$CMP LTC6820
+F ${KICAD_CTM}\datasheets\LTC6820-1601976.pdf
+$ENDCMP
+#
+$CMP MAX14882
+D CAN Interface Isolated Transceiver with Transformer Driver
+K Isolated CAN Transceiver
+F ${KICAD_CTM}/datasheets/MAX14882-1360944.pdf
+$ENDCMP
+#
+$CMP MCP6541UT-E_OT
+D Single Comparators, SOT-23-5
+K cmp
+F ${KICAD_CTM}\datasheets\MCP654x.pdf
+$ENDCMP
+#
+$CMP PEM1-S24-S3-S
+D DCDC 24Vin 3,3Vout galvanic
+F ${KICAD_CTM}\datasheets\CUI-PEM1-S.pdf
+$ENDCMP
+#
+$CMP PEME1-S24-S3-S
+D DCDC 24Vin 3,3Vout galvanic
+$ENDCMP
+#
+$CMP PEME1-S24-S5-S
+D DCDC 24Vin 5Vout galvanic
+$ENDCMP
+#
+$CMP PNC113
+D Normally closed contactor for capacitor discharge, HVDC Discharge applications
+F ${KICAD_CTM}/datasheets/PNC113CDA.pdf
+$ENDCMP
+#
+$CMP RO4350B_3_port
+D RO4350B 3-port Filter for 868MHz and 1090MHz
+$ENDCMP
+#
+$CMP SMA_END_Launch
+D SMA Jack, 50 Ohms
+K SMA
+F ${KICAD_CTM}/datasheets/SV_SMA_Jack_END_launch.pdf
+$ENDCMP
+#
+$CMP SN74AC86DR
+D QUadruple 2 input XOR Gates
+F ${KICAD_CTM}/datasheets/sn74ac86.pdf
+$ENDCMP
+#
+$CMP SPST_NO
+D SPST_NO
+K spdt relay
+F ${KICAD_CTM}\datasheets\g81c.pdf
+$ENDCMP
+#
+$CMP SS1040
+F ${KICAD_CTM}/datasheets/SS1030_SERIES-1868355.pdf
+$ENDCMP
+#
+$CMP STM32F103
+D 1 CAN
+F ${KICAD_CTM}/datasheets/STM32F103.pdf
+$ENDCMP
+#
+$CMP TE_AC-conn
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP TLE42664GHTMA2
+D LDO Fixed Voltage Regulator 5V
+F ${KICAD_CTM}/datasheets/TLE42664GHTMA2.pdf
+$ENDCMP
+#
+$CMP TPD3S044
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 1.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
+$CMP TPD4E001
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 0.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
+$CMP aisler
+D aisler logo
+$ENDCMP
+#
+$CMP high_voltage_10x8
+D high voltage footprint warning
+K high voltage warning
+$ENDCMP
+#
+#End Doc Library

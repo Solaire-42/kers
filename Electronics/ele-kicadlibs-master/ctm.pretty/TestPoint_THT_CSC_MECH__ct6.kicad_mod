@@ -1,0 +1,111 @@
+(footprint "TestPoint_THT_CSC_MECH__ct6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+	(tags "test point THT pad")
+	(property "Reference" "REF**"
+		(at 0 -1.648 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8e3b35bb-4555-4b98-b228-8e15c28a300a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 -2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "8c0c2105-72ba-497b-b863-69823727ae67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bde64cc-0600-45f2-a497-b78f05dc573f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6d99be2-270d-4595-a01e-37da381acdbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "323499c6-7431-4f49-942a-d1a373fff4ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(clearance 0.2)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -1 -1.2)
+		(end 1 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "92add2cf-e540-4290-a31a-b9fc2fc64639")
+	)
+	(fp_rect
+		(start -1 -1.2)
+		(end 1 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "134b4bb5-728b-4d64-a2dd-d29df1830cc4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.1 -1.7 0)
+		(layer "F.Fab")
+		(uuid "258d936c-5468-40a7-bb8d-0b29d21bf981")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "d4c59acd-c0ea-4830-8b44-6dc762ed1a14")
+	)
+)
