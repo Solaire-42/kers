@@ -1,0 +1,25 @@
+1x  Inverter
+    STEVAL-CTM009V1
+    Mouser
+    360,28€
+
+1x  Conversionboard Nucleo to Inverter
+    X-NUCLOEO-IHM09M2
+    Mouser
+    20,39€
+
+1x  STM 32 Nucleo Board
+    NUCLEO-F072RB
+    Mouser
+    10,21€
+
+1x  BLDC Motor
+    APBA80M048030-E
+    Nanotec
+    385,60€
+
+Open Hardware:
+
+Daumengas
+Display
+Super-Caps
