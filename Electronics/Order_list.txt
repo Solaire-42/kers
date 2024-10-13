@@ -13,13 +13,11 @@
     Mouser
     10,21€
 
+50x Super-Caps
+    Mouser
+    96,50€
+
 1x  BLDC Motor
     APBA80M048030-E
     Nanotec
     385,60€
-
-Open Hardware:
-
-Daumengas
-Display
-Super-Caps
