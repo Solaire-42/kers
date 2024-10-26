@@ -47,7 +47,5 @@ ax.legend(handles=patches, labels=team_colors.keys(), fontsize=11)
 
 figure = plt.gcf()
 figure.set_size_inches(16,10)
-plt.savefig('kers/Projectmanagement/timeplaning.jpg')
-
 plt.show()
 
