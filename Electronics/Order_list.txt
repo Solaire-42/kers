@@ -1,14 +1,17 @@
-1x  Inverter + MCU
-    STEVAL-SPIN3201
-    Mouser
-    66,04€
+Mouser:
+MCU 2x (front and back)
+NUCLEO-G431RB 
+17,81€ per unit
 
-50x Super-Caps
-    Mouser
-    96,50€
+Drive control 2x (front and back)
+X-NUCLEO-IHM08M1 
+39,90€ per unit
+
+Capacitors 50x
+Cornell Dubilier - CDE DGH105Q5R5
+96,50€ all
 
 
-1x  BLDC Motor
-    APBA80M048030-E
-    Nanotec
-    366,90€
+Supplier???
+Radnabenmotor BLDC 2x (front and back)
+Link???
