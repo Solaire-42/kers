@@ -11,17 +11,17 @@ sw = 'Software'
 team_colors = {mech: '#4e95d9', elec: '#f2aa84', sw: '#b4e5a2'}
 
 df = pd.DataFrame({'task': ['Konstruktion', 'Hardware beschaffen', 'Fertigung', 'Mechanische Inbetriebnahme', 
-                            'Entwicklung', 'Komponenten beschaffen', 'Testaufbau', 'Elektrische Inbetriebnahme', 
+                            'Entwicklung', 'Komponenten beschaffen', 'Elektrische Inbetriebnahme', 'Elektrische Dokumentation', 
                             'Kontroller definieren', 'Software implementieren', 'Testen', 'Software Inbetriebnahme'],
                   'team': [mech, mech, mech, mech, 
                            elec, elec, elec, elec, 
                            sw, sw, sw, sw],
                   'start': pd.to_datetime(['2024-09-07', '2024-09-07', '2024-10-05', '2024-10-26', 
-                                           '2024-09-07', '2024-09-28', '2024-10-26', '2024-11-09',
-                                           '2024-09-07', '2024-10-05', '2024-11-02', '2024-11-16',]),
-                  'end': pd.to_datetime(['2024-12-07', '2024-10-19', '2024-11-02', '2025-01-25',
-                                         '2024-11-02', '2024-11-09', '2024-11-16', '2025-01-25',
-                                         '2024-10-05', '2024-11-09', '2024-11-23', '2025-01-25'])})
+                                           '2024-09-07', '2024-09-28', '2024-11-09', '2024-11-16',
+                                           '2024-09-07', '2024-10-05', '2024-11-09', '2024-11-16',]),
+                  'end': pd.to_datetime(['2024-12-07', '2024-11-02', '2024-11-16', '2025-01-25',
+                                         '2024-11-02', '2024-11-23', '2024-12-14', '2025-01-25',
+                                         '2024-10-05', '2024-11-30', '2024-12-14', '2025-01-25'])})
 
 df['days_to_start'] = (df['start'] - df['start'].min()).dt.days
 df['days_to_end'] = (df['end'] - df['start'].min()).dt.days
