@@ -77,4 +77,4 @@ fp-info-cache
 /lib
 
 #STM 
-.metadata
+.metadata/
