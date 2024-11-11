@@ -1,0 +1,12 @@
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:89:13:MCboot	2
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:249:13:TSK_SetChargeBootCapDelayM1	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:260:13:TSK_ChargeBootCapDelayHasElapsedM1	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:276:13:TSK_SetStopPermanencyTimeM1	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:287:13:TSK_StopPermanencyTimeHasElapsedM1	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:313:16:TSK_HighFrequencyTask	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:361:13:TSK_SafetyTask_PWMOFF	3
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:336:13:TSK_SafetyTask	2
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:161:13:MC_RunMotorControlTasks	7
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:409:13:TSK_HardwareFaultTask	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:422:13:UI_HandleStartStopButton_cb	2
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks.c:440:13:mc_lock_pins	1

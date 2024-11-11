@@ -1,0 +1,4 @@
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mcp.c:54:9:RI_SetRegCommandParser	72	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mcp.c:157:9:RI_GetRegCommandParser	64	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mcp.c:223:6:MCP_ReceivedPacket	32	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mcp.c:403:9:MCP_RegisterCallBack	0	static

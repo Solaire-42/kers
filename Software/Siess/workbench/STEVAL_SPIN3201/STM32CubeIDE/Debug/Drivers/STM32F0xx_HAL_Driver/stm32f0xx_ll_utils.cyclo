@@ -1,0 +1,7 @@
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c:550:20:UTILS_EnablePLLAndSwitchSystem	10
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c:141:6:LL_Init1msTick	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c:157:6:LL_mDelay	3
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c:213:6:LL_SetSystemCoreClock	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c:228:13:LL_SetFlashLatency	3
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c:295:13:LL_PLL_ConfigSystemClock_HSI	4
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c:420:13:LL_PLL_ConfigSystemClock_HSE	5

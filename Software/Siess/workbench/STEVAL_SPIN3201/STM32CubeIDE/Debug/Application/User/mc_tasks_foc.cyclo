@@ -1,0 +1,7 @@
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks_foc.c:474:13:FOC_Clear	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks_foc.c:81:13:FOC_Init	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks_foc.c:150:6:TSK_MF_StopProcessing	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks_foc.c:510:13:FOC_InitAdditionalMethods	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks_foc.c:533:13:FOC_CalcCurrRef	2
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks_foc.c:168:13:TSK_MediumFrequencyTaskM1	32
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/mc_tasks_foc.c:588:16:FOC_HighFrequencyTask	7

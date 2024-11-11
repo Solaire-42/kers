@@ -1,0 +1,4 @@
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:50:13:OL_Init	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:73:13:OL_VqdConditioning	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:90:13:OL_Calc	3
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/Any/Src/open_loop.c:126:13:OL_VF	1

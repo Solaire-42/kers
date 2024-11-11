@@ -1,0 +1,4 @@
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/stm32_mc_common_it.c:67:6:USART1_IRQHandler	5
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/stm32_mc_common_it.c:129:6:HardFault_Handler	1
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/stm32_mc_common_it.c:148:6:SysTick_Handler	3
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/Src/stm32_mc_common_it.c:193:6:EXTI0_1_IRQHandler	2

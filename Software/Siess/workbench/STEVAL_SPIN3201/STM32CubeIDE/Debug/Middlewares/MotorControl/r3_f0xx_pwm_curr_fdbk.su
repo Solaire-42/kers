@@ -1,0 +1,16 @@
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:953:13:R3_1_HFCurrentsCalibrationAB	16	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:991:13:R3_1_HFCurrentsCalibrationC	12	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:67:13:R3_1_Init	24	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:142:13:R3_1_SetOffsetCalib	8	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:156:13:R3_1_GetOffsetCalib	8	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:272:13:R3_1_GetPhaseCurrents	20	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:431:13:R3_1_GetPhaseCurrents_OVM	20	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:904:17:R3_1_WriteTIMRegisters	0	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:743:17:R3_1_SetADCSampPointCalibration	8	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:768:17:R3_1_SetADCSampPointSectX	16	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:840:10:R3_1_SetADCSampPointSectX_OVM	24	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:1029:13:R3_1_TurnOnLowSides	0	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:1073:13:R3_1_SwitchOnPWM	16	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:1165:13:R3_1_SwitchOffPWM	8	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:171:13:R3_1_CurrentReadingCalibration	48	static
+D:/11_GIT/kers/Software/Siess/workbench/STEVAL_SPIN3201/MCSDK_v6.3.2-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:1231:8:R3_1_TIMx_UP_IRQHandler	28	static
