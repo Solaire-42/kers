@@ -1,0 +1,10 @@
+digraph G {
+    drive -> init [ headlabel="speed achived \n or \n energy empty", 
+                    labeldistance=7 labelangle=70];
+    init -> drive [ headlabel="no motion \n and \n throttle input", 
+                    labeldistance=7 labelangle=70];
+    init -> brake [ headlabel="in motion \n and \n throttle input", 
+                    labeldistance=7 labelangle=70];
+    brake -> init [ headlabel="standing still \n or \n energy full", 
+                    labeldistance=7 labelangle=70];
+}
