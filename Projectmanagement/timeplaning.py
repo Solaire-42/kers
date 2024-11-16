@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -8,20 +9,25 @@ title = 'Projekt KERS: Zeitplan'
 mech = 'Konstruktion'
 elec = 'Elektrotechnik'
 sw = 'Software'
-team_colors = {mech: '#4e95d9', elec: '#f2aa84', sw: '#b4e5a2'}
+pj = 'Projektmanagement'
+team_colors = {mech: '#4e95d9', elec: '#f2aa84', sw: '#b4e5a2', pj: '#ffe141'}
 
-df = pd.DataFrame({'task': ['Konstruktion', 'Hardware beschaffen', 'Fertigung', 'Mechanische Inbetriebnahme', 
-                            'Entwicklung', 'Komponenten beschaffen', 'Elektrische Inbetriebnahme', 'Elektrische Dokumentation', 
-                            'Kontroller definieren', 'Software implementieren', 'Testen', 'Software Inbetriebnahme'],
+df = pd.DataFrame({'task': ['Konstruktion', 'Bauteile beschaffen', 'Fertigung', 'Endmontage', 
+                            'Entwicklung', 'Komponenten beschaffen', 'Verkabelung', 'Stromlaufplan', 
+                            'Kontroller definieren', 'Implementierung', 'Testen', 'Inbetriebnahme',
+                            'Dokumentation'],
                   'team': [mech, mech, mech, mech, 
                            elec, elec, elec, elec, 
-                           sw, sw, sw, sw],
+                           sw, sw, sw, sw,
+                           pj],
                   'start': pd.to_datetime(['2024-09-07', '2024-09-07', '2024-10-05', '2024-10-26', 
                                            '2024-09-07', '2024-09-28', '2024-11-09', '2024-11-16',
-                                           '2024-09-07', '2024-10-05', '2024-11-09', '2024-11-16',]),
-                  'end': pd.to_datetime(['2024-12-07', '2024-11-02', '2024-11-16', '2025-01-25',
-                                         '2024-11-02', '2024-11-23', '2024-12-14', '2025-01-25',
-                                         '2024-10-05', '2024-11-30', '2024-12-14', '2025-01-25'])})
+                                           '2024-09-07', '2024-10-05', '2024-11-09', '2024-11-30',
+                                           '2024-09-07']),
+                  'end': pd.to_datetime(['2024-12-07', '2024-11-09', '2024-11-16', '2025-02-16',
+                                         '2024-11-02', '2024-11-09', '2024-12-14', '2025-02-16',
+                                         '2024-10-05', '2024-11-30', '2024-12-21', '2025-02-16',
+                                         '2025-03-02'])})
 
 df['days_to_start'] = (df['start'] - df['start'].min()).dt.days
 df['days_to_end'] = (df['end'] - df['start'].min()).dt.days
@@ -46,6 +52,12 @@ ax.xaxis.grid(True, alpha=0.5)
 ax.legend(handles=patches, labels=team_colors.keys(), fontsize=11)
 
 figure = plt.gcf()
-figure.set_size_inches(16,10)
-plt.show()
+figure.set_size_inches(18,10)
+#plt.show()
+
+# Change to current directory and save file
+name_of_current_directory = os.path.dirname(__file__)
+os.chdir(name_of_current_directory)
+figure.savefig('timeplaning.png')
+#plt.savefig('timeplaning.png')
 
