@@ -1,14 +1,14 @@
 digraph G {
     drive -> idle [ minlen=3, 
-                    headlabel="switch input \n or \n speed achived \n or \n energy empty", 
+                    headlabel="unpressed input \n or \n speed achived \n or \n energy empty", 
                     labeldistance=9 labelangle=40];
     idle -> drive [ minlen=3, 
-                    headlabel="switch input \n and \n no motion", 
+                    headlabel="pressed input \n and \n no motion", 
                     labeldistance=9, labelangle=40];
     idle -> brake [ minlen=3, 
-                    headlabel="switch input \n and \n in motion", 
+                    headlabel="pressed input \n and \n in motion", 
                     labeldistance=9, labelangle=40];
     brake -> idle [ minlen=3, 
-                    headlabel="switch input \n or \n standing still \n or \n energy full", 
+                    headlabel="unpressed input \n or \n standing still \n or \n energy full", 
                     labeldistance=9 labelangle=40];
 }
