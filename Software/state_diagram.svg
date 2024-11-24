@@ -1,61 +1,129 @@
 <?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236pt" height="336pt" viewBox="0.00 0.00 235.7 336.00">
-<g id="graph0" class="graph" transform="translate(2.052551732154882,304.994425504282) scale(0.8705505632961241)" data-name="G">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376pt" height="492pt" viewBox="0.00 0.00 376 491.56">
+<g id="graph0" class="graph" transform="translate(18.37594828551208,445.4983999382991) scale(0.8705505632961241)" data-name="G">
 
-<polygon fill="white" stroke="none" points="-4,4 -4,-332 231.7,-332 231.7,4 -4,4"/>
-<!-- drive -->
-<g id="node1" class="node" pointer-events="visible" data-name="drive">
+<polygon fill="white" stroke="none" points="-4,4 -4,-487.56 372,-487.56 372,4 -4,4"/>
+<!-- invisibleNode -->
+<g id="node1" class="node" pointer-events="visible" data-name="invisibleNode">
 
-<ellipse fill="none" stroke="black" cx="113.85" cy="-310" rx="30.76" ry="18"/>
-<text text-anchor="middle" x="113.85" y="-305.8" font-family="Times,serif" font-size="14.00">drive</text>
+<ellipse fill="black" stroke="black" cx="308.89" cy="-476.8" rx="1.8" ry="1.8"/>
+</g>
+<!-- init -->
+<g id="node2" class="node" pointer-events="visible" data-name="init">
+
+<ellipse fill="none" stroke="black" cx="308.89" cy="-421" rx="27" ry="18"/>
+<text text-anchor="middle" x="308.89" y="-416.8" font-family="Times,serif" font-size="14.00">init</text>
+</g>
+<!-- invisibleNode&#45;&gt;init -->
+<g id="edge1" class="edge" data-name="invisibleNode-&gt;init">
+
+<path fill="none" stroke="black" d="M308.89,-474.87C308.89,-471.77 308.89,-461.44 308.89,-450.72"/>
+<polygon fill="black" stroke="black" points="312.39,-450.77 308.89,-440.77 305.39,-450.77 312.39,-450.77"/>
+<text text-anchor="middle" x="276.75" y="-474.56" font-family="Times,serif" font-size="10.00">turn on</text>
 </g>
 <!-- idle -->
-<g id="node2" class="node" pointer-events="visible" data-name="idle">
+<g id="node3" class="node" pointer-events="visible" data-name="idle">
 
-<ellipse fill="none" stroke="black" cx="113.85" cy="-164" rx="27" ry="18"/>
-<text text-anchor="middle" x="113.85" y="-159.8" font-family="Times,serif" font-size="14.00">idle</text>
+<ellipse fill="none" stroke="black" cx="72.89" cy="-275" rx="27" ry="18"/>
+<text text-anchor="middle" x="72.89" y="-270.8" font-family="Times,serif" font-size="14.00">idle</text>
 </g>
-<!-- drive&#45;&gt;idle -->
-<g id="edge1" class="edge" data-name="drive-&gt;idle">
+<!-- init&#45;&gt;idle -->
+<g id="edge2" class="edge" data-name="init-&gt;idle">
 
-<path fill="none" stroke="black" d="M109.3,-291.92C106.72,-267.56 106.41,-222.55 108.36,-193.21"/>
-<polygon fill="black" stroke="black" points="111.82,-193.83 109.17,-183.57 104.85,-193.24 111.82,-193.83"/>
-<text text-anchor="middle" x="45.88" y="-258.53" font-family="Times,serif" font-size="14.00">unpressed input </text>
-<text text-anchor="middle" x="45.88" y="-241.73" font-family="Times,serif" font-size="14.00"> or </text>
-<text text-anchor="middle" x="45.88" y="-224.93" font-family="Times,serif" font-size="14.00"> speed achived</text>
+<path fill="none" stroke="black" d="M289.58,-408.22C248.26,-383.01 151.09,-323.71 102.15,-293.85"/>
+<polygon fill="black" stroke="black" points="104.12,-290.96 93.76,-288.74 100.48,-296.93 104.12,-290.96"/>
+<text text-anchor="middle" x="111.63" y="-320.06" font-family="Times,serif" font-size="10.00">init done</text>
 </g>
-<!-- idle&#45;&gt;drive -->
-<g id="edge2" class="edge" data-name="idle-&gt;drive">
+<!-- error -->
+<g id="node4" class="node" pointer-events="visible" data-name="error">
 
-<path fill="none" stroke="black" d="M118.4,-182.06C120.98,-206.41 121.29,-251.41 119.34,-280.77"/>
-<polygon fill="black" stroke="black" points="115.88,-280.15 118.53,-290.41 122.85,-280.74 115.88,-280.15"/>
-<text text-anchor="middle" x="181.81" y="-240.65" font-family="Times,serif" font-size="14.00">pressed input </text>
-<text text-anchor="middle" x="181.81" y="-223.85" font-family="Times,serif" font-size="14.00"> and </text>
-<text text-anchor="middle" x="181.81" y="-207.05" font-family="Times,serif" font-size="14.00"> no motion</text>
+<ellipse fill="none" stroke="black" cx="308.89" cy="-275" rx="29.6" ry="18"/>
+<text text-anchor="middle" x="308.89" y="-270.8" font-family="Times,serif" font-size="14.00">error</text>
+</g>
+<!-- init&#45;&gt;error -->
+<g id="edge3" class="edge" data-name="init-&gt;error">
+
+<path fill="none" stroke="black" d="M304.34,-402.92C301.76,-378.56 301.45,-333.55 303.4,-304.21"/>
+<polygon fill="black" stroke="black" points="306.86,-304.83 304.21,-294.57 299.89,-304.24 306.86,-304.83"/>
+<text text-anchor="middle" x="279.17" y="-344.53" font-family="Times,serif" font-size="10.00">init error</text>
+</g>
+<!-- idle&#45;&gt;idle -->
+
+<!-- idle&#45;&gt;error -->
+<g id="edge5" class="edge" data-name="idle-&gt;error">
+
+<path fill="none" stroke="black" d="M100.09,-275C156.04,-275 211.98,-275 267.93,-275"/>
+<polygon fill="black" stroke="black" points="267.61,-278.5 277.61,-275 267.61,-271.5 267.61,-278.5"/>
+<text text-anchor="middle" x="229.88" y="-263.32" font-family="Times,serif" font-size="10.00">error handling</text>
 </g>
 <!-- brake -->
-<g id="node3" class="node" pointer-events="visible" data-name="brake">
+<g id="node5" class="node" pointer-events="visible" data-name="brake">
 
-<ellipse fill="none" stroke="black" cx="113.85" cy="-18" rx="32.46" ry="18"/>
-<text text-anchor="middle" x="113.85" y="-13.8" font-family="Times,serif" font-size="14.00">brake</text>
+<ellipse fill="none" stroke="black" cx="72.89" cy="-18" rx="32.46" ry="18"/>
+<text text-anchor="middle" x="72.89" y="-13.8" font-family="Times,serif" font-size="14.00">brake</text>
 </g>
 <!-- idle&#45;&gt;brake -->
-<g id="edge3" class="edge" data-name="idle-&gt;brake">
+<g id="edge6" class="edge" data-name="idle-&gt;brake">
 
-<path fill="none" stroke="black" d="M109.3,-145.92C106.72,-121.56 106.41,-76.55 108.36,-47.21"/>
-<polygon fill="black" stroke="black" points="111.82,-47.83 109.17,-37.57 104.85,-47.24 111.82,-47.83"/>
-<text text-anchor="middle" x="45.88" y="-112.53" font-family="Times,serif" font-size="14.00">pressed input </text>
-<text text-anchor="middle" x="45.88" y="-95.73" font-family="Times,serif" font-size="14.00"> and </text>
-<text text-anchor="middle" x="45.88" y="-78.93" font-family="Times,serif" font-size="14.00"> in motion</text>
+<path fill="none" stroke="black" d="M66.22,-257.08C63.89,-238.99 63.89,-209.47 63.89,-184 63.89,-184 63.89,-184 63.89,-109 63.89,-88.31 63.89,-64.94 65.14,-47.2"/>
+<polygon fill="black" stroke="black" points="68.6,-47.71 66.07,-37.43 61.64,-47.05 68.6,-47.71"/>
+<text text-anchor="middle" x="27.77" y="-147.98" font-family="Times,serif" font-size="10.00">pressed input </text>
+<text text-anchor="middle" x="27.77" y="-135.98" font-family="Times,serif" font-size="10.00"> and </text>
+<text text-anchor="middle" x="27.77" y="-123.98" font-family="Times,serif" font-size="10.00"> in motion</text>
+</g>
+<!-- drive -->
+<g id="node6" class="node" pointer-events="visible" data-name="drive">
+
+<ellipse fill="none" stroke="black" cx="308.89" cy="-18" rx="30.76" ry="18"/>
+<text text-anchor="middle" x="308.89" y="-13.8" font-family="Times,serif" font-size="14.00">drive</text>
+</g>
+<!-- idle&#45;&gt;drive -->
+<g id="edge8" class="edge" data-name="idle-&gt;drive">
+
+<path fill="none" stroke="black" d="M83.85,-258.43C119.86,-214.99 233.21,-92.3 284.05,-41.48"/>
+<polygon fill="black" stroke="black" points="286.49,-43.99 291.14,-34.47 281.57,-39.01 286.49,-43.99"/>
+<text text-anchor="middle" x="222.45" y="-60.08" font-family="Times,serif" font-size="10.00">pressed input </text>
+<text text-anchor="middle" x="222.45" y="-48.08" font-family="Times,serif" font-size="10.00"> and </text>
+<text text-anchor="middle" x="222.45" y="-36.08" font-family="Times,serif" font-size="10.00"> no motion </text>
+<text text-anchor="middle" x="222.45" y="-24.08" font-family="Times,serif" font-size="10.00"> and </text>
+<text text-anchor="middle" x="222.45" y="-12.08" font-family="Times,serif" font-size="10.00"> charged</text>
+</g>
+<!-- error&#45;&gt;init -->
+<g id="edge4" class="edge" data-name="error-&gt;init">
+
+<path fill="none" stroke="black" d="M313.44,-293.06C316.02,-317.41 316.33,-362.41 314.38,-391.77"/>
+<polygon fill="black" stroke="black" points="310.92,-391.15 313.57,-401.41 317.9,-391.74 310.92,-391.15"/>
+<text text-anchor="middle" x="338.61" y="-345.45" font-family="Times,serif" font-size="10.00">error reset</text>
 </g>
 <!-- brake&#45;&gt;idle -->
-<g id="edge4" class="edge" data-name="brake-&gt;idle">
+<g id="edge7" class="edge" data-name="brake-&gt;idle">
 
-<path fill="none" stroke="black" d="M118.4,-36.06C120.98,-60.41 121.29,-105.41 119.34,-134.77"/>
-<polygon fill="black" stroke="black" points="115.88,-134.15 118.53,-144.41 122.85,-134.74 115.88,-134.15"/>
-<text text-anchor="middle" x="181.81" y="-94.65" font-family="Times,serif" font-size="14.00">unpressed input </text>
-<text text-anchor="middle" x="181.81" y="-77.85" font-family="Times,serif" font-size="14.00"> and </text>
-<text text-anchor="middle" x="181.81" y="-61.05" font-family="Times,serif" font-size="14.00"> standing still</text>
+<path fill="none" stroke="black" d="M79.57,-35.92C81.89,-54.01 81.89,-83.53 81.89,-109 81.89,-184 81.89,-184 81.89,-184 81.89,-204.69 81.89,-228.06 80.65,-245.8"/>
+<polygon fill="black" stroke="black" points="77.18,-245.29 79.71,-255.57 84.15,-245.95 77.18,-245.29"/>
+<text text-anchor="middle" x="118.01" y="-163.02" font-family="Times,serif" font-size="10.00">unpressed input </text>
+<text text-anchor="middle" x="118.01" y="-151.02" font-family="Times,serif" font-size="10.00"> and </text>
+<text text-anchor="middle" x="118.01" y="-139.02" font-family="Times,serif" font-size="10.00"> standing still</text>
 </g>
+<!-- brake&#45;&gt;error -->
+<g id="edge11" class="edge" data-name="brake-&gt;error">
+
+<path fill="none" stroke="black" d="M90.85,-33.21C118.71,-55.67 173.33,-101.4 213.89,-146 244.11,-179.22 274.19,-221.76 292.16,-248.45"/>
+<polygon fill="black" stroke="black" points="289.13,-250.21 297.6,-256.59 294.96,-246.33 289.13,-250.21"/>
+<text text-anchor="middle" x="244.64" y="-228.27" font-family="Times,serif" font-size="10.00">error handling</text>
 </g>
+<!-- drive&#45;&gt;idle -->
+<g id="edge9" class="edge" data-name="drive-&gt;idle">
+
+<path fill="none" stroke="black" d="M297.55,-35.03C260.92,-79.12 147.14,-202.23 96.9,-252.35"/>
+<polygon fill="black" stroke="black" points="94.59,-249.72 89.92,-259.23 99.5,-254.7 94.59,-249.72"/>
+<text text-anchor="middle" x="156.59" y="-251.67" font-family="Times,serif" font-size="10.00">unpressed input </text>
+<text text-anchor="middle" x="156.59" y="-239.67" font-family="Times,serif" font-size="10.00"> or </text>
+<text text-anchor="middle" x="156.59" y="-227.67" font-family="Times,serif" font-size="10.00"> speed achieved</text>
+</g>
+<g id="edge10" class="edge" data-name="drive-&gt;error" data-comment="drive-&gt;idle">
+
+<path fill="none" stroke="black" d="M308.89,-36.25C308.89,-54.37 308.89,-83.69 308.89,-109 308.89,-184 308.89,-184 308.89,-184 308.89,-204.57 308.89,-227.78 308.89,-245.47"/>
+<polygon fill="black" stroke="black" points="305.39,-245.23 308.89,-255.23 312.39,-245.23 305.39,-245.23"/>
+<text text-anchor="middle" x="339.53" y="-228.03" font-family="Times,serif" font-size="10.00">error handling</text>
+</g></g>
 </svg>

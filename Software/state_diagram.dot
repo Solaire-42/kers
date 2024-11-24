@@ -1,14 +1,57 @@
 digraph G {
-    drive -> idle [ minlen=3, 
-                    headlabel="unpressed input \n or \n speed achived \n or \n energy empty", 
-                    labeldistance=9 labelangle=40];
-    idle -> drive [ minlen=3, 
-                    headlabel="pressed input \n and \n no motion", 
-                    labeldistance=9, labelangle=40];
-    idle -> brake [ minlen=3, 
-                    headlabel="pressed input \n and \n in motion", 
-                    labeldistance=9, labelangle=40];
-    brake -> idle [ minlen=3, 
-                    headlabel="unpressed input \n or \n standing still \n or \n energy full", 
-                    labeldistance=9 labelangle=40];
+    edge [fontsize=10];
+    invisibleNode [shape=point, style=invisible];
+
+    invisibleNode -> init [ headlabel="turn on",
+                            labeldistance=5,
+                            labelangle=40]
+
+    {rank = same; idle error}
+
+    init -> idle [  headlabel="init done",
+                    labeldistance=4,
+                    labelangle=30]
+    init -> error [  headlabel="init error",
+                    minlen=3,
+                    labeldistance=6,
+                    labelangle=20]
+    error -> init [ headlabel="error reset",
+                    minlen=3,
+                    labeldistance=6,
+                    labelangle=20]
+    idle -> error [ headlabel="error handling",
+                    minlen=10,
+                    labeldistance=5,
+                    labelangle=10]
+    
+
+    {rank = same; brake drive}
+
+    idle -> brake [ headlabel="pressed input \n and \n in motion",
+                    minlen=6,
+                    labeldistance=11,
+                    labelangle=15]
+    brake -> idle [ headlabel="unpressed input \n and \n standing still",
+                    minlen=6,
+                    labeldistance=11,
+                    labelangle=15]
+
+    idle -> drive [ headlabel="pressed input \n and \n no motion \n and \n charged", 
+                    minlen=6,
+                    labeldistance=7,
+                    labelangle=40,
+                    constraint=false]
+    drive -> idle [ headlabel="unpressed input \n or \n speed achieved", 
+                    minlen=6,
+                    labeldistance=7,
+                    labelangle=30,
+                    constraint=false]
+
+    drive -> error [headlabel="error handling",
+                    labeldistance=4,
+                    labelangle=50]
+    brake -> error [headlabel="error handling",
+                    labeldistance=6,
+                    labelangle=-30
+                    constraint=false]
 }
