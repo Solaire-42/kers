@@ -2,6 +2,7 @@ import os
 import math
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.interpolate import interp1d
 
 DIAMETER_FRONT = 0.49  # diameter [m]
 DIAMETER_BACK = 0.67  # diameter [m]
@@ -47,6 +48,21 @@ axis_2.set_xticks(axis_1.get_xticks() * GEAR_RATIO)  # Set ticks based on x-axis
 axis_2.set_xlabel(f'Electrical speed (gear ratio: 1/{GEAR_RATIO}) [RPM]', fontsize='12')
 
 plt.tight_layout()
+
+# Find specific rpm for given (target) velocity
+target_velocity = 20
+front_rpm_function = interp1d(v_kmh, rpm_front, kind='linear', fill_value='extrapolate')
+back_rpm_function = interp1d(v_kmh, rpm_back, kind='linear', fill_value='extrapolate')
+
+front_rpm_mechanical = round(float(front_rpm_function(target_velocity)))
+front_rpm_electrical = round(front_rpm_mechanical * GEAR_RATIO)
+plt.plot(front_rpm_mechanical, target_velocity, 'x', c='red')
+plt.text(front_rpm_mechanical, target_velocity + 2, f'{front_rpm_mechanical}\n{front_rpm_electrical}')
+
+back_rpm_mechanical = round(float(back_rpm_function(target_velocity)))
+back_rpm_electrical = round(back_rpm_mechanical * GEAR_RATIO)
+plt.plot(back_rpm_mechanical, target_velocity, 'x', c='red')
+plt.text(back_rpm_mechanical, target_velocity + 2, f'{back_rpm_mechanical}\n{back_rpm_electrical}')
 
 # Save figure
 figure = plt.gcf()
