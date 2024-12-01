@@ -1,0 +1,12 @@
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:86:13:MCboot	8	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:246:13:TSK_SetChargeBootCapDelayM1	0	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:257:13:TSK_ChargeBootCapDelayHasElapsedM1	0	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:273:13:TSK_SetStopPermanencyTimeM1	0	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:284:13:TSK_StopPermanencyTimeHasElapsedM1	0	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:310:16:TSK_HighFrequencyTask	8	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:358:13:TSK_SafetyTask_PWMOFF	24	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:333:13:TSK_SafetyTask	8	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:158:13:MC_RunMotorControlTasks	16	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:406:13:TSK_HardwareFaultTask	8	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:419:13:UI_HandleStartStopButton_cb	8	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks.c:437:13:mc_lock_pins	48	static

@@ -1,0 +1,4 @@
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/stm32_mc_common_it.c:67:6:USART1_IRQHandler	8	static,ignoring_inline_asm
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/stm32_mc_common_it.c:129:6:HardFault_Handler	8	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/stm32_mc_common_it.c:148:6:SysTick_Handler	8	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/stm32_mc_common_it.c:193:6:EXTI0_1_IRQHandler	8	static

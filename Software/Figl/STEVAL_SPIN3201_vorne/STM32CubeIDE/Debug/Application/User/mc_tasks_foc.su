@@ -1,0 +1,7 @@
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks_foc.c:440:13:FOC_Clear	8	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks_foc.c:78:13:FOC_Init	40	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks_foc.c:147:6:TSK_MF_StopProcessing	16	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks_foc.c:476:13:FOC_InitAdditionalMethods	0	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks_foc.c:499:13:FOC_CalcCurrRef	24	static,ignoring_inline_asm
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks_foc.c:165:13:TSK_MediumFrequencyTaskM1	32	static
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/Src/mc_tasks_foc.c:554:16:FOC_HighFrequencyTask	72	static

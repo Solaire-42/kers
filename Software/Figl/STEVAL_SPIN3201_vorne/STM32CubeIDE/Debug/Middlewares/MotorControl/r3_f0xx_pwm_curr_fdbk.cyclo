@@ -1,0 +1,16 @@
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:953:13:R3_1_HFCurrentsCalibrationAB	2
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:991:13:R3_1_HFCurrentsCalibrationC	2
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:67:13:R3_1_Init	6
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:142:13:R3_1_SetOffsetCalib	1
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:156:13:R3_1_GetOffsetCalib	1
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:272:13:R3_1_GetPhaseCurrents	17
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:431:13:R3_1_GetPhaseCurrents_OVM	41
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:904:17:R3_1_WriteTIMRegisters	2
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:743:17:R3_1_SetADCSampPointCalibration	1
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:768:17:R3_1_SetADCSampPointSectX	4
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:840:10:R3_1_SetADCSampPointSectX_OVM	4
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:1029:13:R3_1_TurnOnLowSides	3
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:1073:13:R3_1_SwitchOnPWM	4
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:1165:13:R3_1_SwitchOffPWM	4
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:171:13:R3_1_CurrentReadingCalibration	3
+C:/workspace/kers/Software/Figl/STEVAL_SPIN3201_vorne/MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/F0xx/Src/r3_f0xx_pwm_curr_fdbk.c:1231:8:R3_1_TIMx_UP_IRQHandler	1
