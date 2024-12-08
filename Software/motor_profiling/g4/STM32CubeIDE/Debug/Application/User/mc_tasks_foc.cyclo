@@ -1,0 +1,7 @@
+C:/Users/fluky/Desktop/g4/Src/mc_tasks_foc.c:525:13:FOC_Clear	1
+C:/Users/fluky/Desktop/g4/Src/mc_tasks_foc.c:81:13:FOC_Init	1
+C:/Users/fluky/Desktop/g4/Src/mc_tasks_foc.c:175:6:TSK_MF_StopProcessing	1
+C:/Users/fluky/Desktop/g4/Src/mc_tasks_foc.c:561:13:FOC_InitAdditionalMethods	1
+C:/Users/fluky/Desktop/g4/Src/mc_tasks_foc.c:584:13:FOC_CalcCurrRef	2
+C:/Users/fluky/Desktop/g4/Src/mc_tasks_foc.c:195:13:TSK_MediumFrequencyTaskM1	32
+C:/Users/fluky/Desktop/g4/Src/mc_tasks_foc.c:635:16:FOC_HighFrequencyTask	3
