@@ -1,0 +1,22 @@
+{
+    "BEmfConstant": 28.439102172851562,
+    "compatibility": [
+        "FOC",
+        "sixStep"
+    ],
+    "description": "36V 250W BLDC drive",
+    "friction": 139.01,
+    "hardwareFamily": "MOTOR",
+    "id": "Windmeile - back",
+    "inertia": 636.24,
+    "label": "Windmeile - back",
+    "ls": 0.16,
+    "magneticStructure": {
+        "type": "SM-PMSM"
+    },
+    "maxRatedSpeed": 918,
+    "nominalCurrent": 14,
+    "nominalDCVoltage": 36.21134948730469,
+    "polePairs": 10,
+    "rs": 0.12590131163597107
+}

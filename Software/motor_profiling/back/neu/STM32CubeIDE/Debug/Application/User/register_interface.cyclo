@@ -1,0 +1,7 @@
+C:/Users/ematric/Downloads/New folder (3)/New folder (2)/neu/Src/register_interface.c:34:9:RI_SetRegisterGlobal	17
+C:/Users/ematric/Downloads/New folder (3)/New folder (2)/neu/Src/register_interface.c:168:9:RI_SetRegisterMotor1	123
+C:/Users/ematric/Downloads/New folder (3)/New folder (2)/neu/Src/register_interface.c:726:9:RI_GetRegisterGlobal	20
+C:/Users/ematric/Downloads/New folder (3)/New folder (2)/neu/Src/register_interface.c:871:11:RI_GetRegisterMotor1	138
+C:/Users/ematric/Downloads/New folder (3)/New folder (2)/neu/Src/register_interface.c:1625:9:RI_MovString	4
+C:/Users/ematric/Downloads/New folder (3)/New folder (2)/neu/Src/register_interface.c:1651:9:RI_GetIDSize	2
+C:/Users/ematric/Downloads/New folder (3)/New folder (2)/neu/Src/register_interface.c:1686:16:RI_GetPtrReg	21
