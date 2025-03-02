@@ -22,15 +22,17 @@ for i in v:
 
 v_kmh = [value * 3.6 for value in v]  # velocity in km/h
 
+print(rpm_back, rpm_front, v_kmh)
+
 # Plot velocity to wheel rpm
 fig = plt.figure(1)
 axis_1 = fig.add_subplot(111)
-axis_1.plot(rpm_front, v_kmh)
-axis_1.plot(rpm_back, v_kmh)
-axis_1.set_xlabel('Mechanical speed [RPM]', fontsize='12')
-axis_1.set_ylabel('v [km/h]', fontsize='12')
-axis_1.set_title('Velocity per RPM', fontsize='14')
-axis_1.legend((f'Front wheel (d={DIAMETER_FRONT}m)', f'Back wheel (d={DIAMETER_BACK}m)'), loc='upper left')
+axis_1.plot(rpm_front, v_kmh, color='black', linestyle='solid')
+axis_1.plot(rpm_back, v_kmh, color='black', linestyle='dashed')
+axis_1.set_xlabel(r'$U_{mechanisch}\rm{\,/\,rpm}$', fontsize='12')
+axis_1.set_ylabel(r'$v\rm{\,/\,\frac{km}{h}}$', fontsize='12')
+#axis_1.set_title(f'Velocity per speed - gear ratio 1/{GEAR_RATIO}', fontsize='14')
+axis_1.legend((f'Vorderrad (d={DIAMETER_FRONT}m)', f'Hinterrad (d={DIAMETER_BACK}m)'), loc='upper left')
 axis_1.grid()
 
 # Add x-axis for electrical rotational speed
@@ -45,7 +47,7 @@ def inv_scale_gear_ratio(x):
 
 axis_2 = axis_1.secondary_xaxis(-0.2, functions=(scale_gear_ratio, inv_scale_gear_ratio))  # Scale x-axis 2 based on x-axis 1
 axis_2.set_xticks(axis_1.get_xticks() * GEAR_RATIO)  # Set ticks based on x-axis 1 and gear ratio
-axis_2.set_xlabel(f'Electrical speed (gear ratio: 1/{GEAR_RATIO}) [RPM]', fontsize='12')
+axis_2.set_xlabel(r'$U_{elektrisch}\rm{\,/\,rpm}$', fontsize='12')
 
 plt.tight_layout()
 
@@ -56,13 +58,13 @@ back_rpm_function = interp1d(v_kmh, rpm_back, kind='linear', fill_value='extrapo
 
 front_rpm_mechanical = round(float(front_rpm_function(target_velocity)))
 front_rpm_electrical = round(front_rpm_mechanical * GEAR_RATIO)
-plt.plot(front_rpm_mechanical, target_velocity, 'x', c='red')
-plt.text(front_rpm_mechanical, target_velocity + 2, f'{front_rpm_mechanical}\n{front_rpm_electrical}')
+#plt.plot(front_rpm_mechanical, target_velocity, 'x', c='red')
+#plt.text(front_rpm_mechanical, target_velocity + 2, f'{front_rpm_mechanical}\n{front_rpm_electrical}')
 
 back_rpm_mechanical = round(float(back_rpm_function(target_velocity)))
 back_rpm_electrical = round(back_rpm_mechanical * GEAR_RATIO)
-plt.plot(back_rpm_mechanical, target_velocity, 'x', c='red')
-plt.text(back_rpm_mechanical, target_velocity + 2, f'{back_rpm_mechanical}\n{back_rpm_electrical}')
+#plt.plot(back_rpm_mechanical, target_velocity, 'x', c='red')
+#plt.text(back_rpm_mechanical, target_velocity + 2, f'{back_rpm_mechanical}\n{back_rpm_electrical}')
 
 # Save figure
 figure = plt.gcf()
