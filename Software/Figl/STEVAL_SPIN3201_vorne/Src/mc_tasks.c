@@ -47,7 +47,7 @@
 
 /* USER CODE END Private define */
 
-#define VBUS_TEMP_ERR_MASK ~(MC_OVER_VOLT | 0 | MC_OVER_TEMP)
+#define VBUS_TEMP_ERR_MASK ~(0 | 0 | MC_OVER_TEMP)
 /* Private variables----------------------------------------------------------*/
 
 static uint16_t hMFTaskCounterM1 = 0; //cstat !MISRAC2012-Rule-8.9_a

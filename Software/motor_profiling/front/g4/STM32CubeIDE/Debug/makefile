@@ -62,8 +62,8 @@ all: main-build
 main-build: g4.elf secondary-outputs
 
 # Tool invocations
-g4.elf g4.map: $(OBJS) $(USER_OBJS) C:\Users\fluky\Desktop\g4\STM32CubeIDE\STM32G474RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "g4.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\fluky\Desktop\g4\STM32CubeIDE\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="g4.map" -Wl,--gc-sections -static -L../../MCSDK_v6.3.1-Full/MotorControl/libMP --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+g4.elf g4.map: $(OBJS) $(USER_OBJS) C:\workspace\kers\Software\motor_profiling\g4\STM32CubeIDE\STM32G474RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "g4.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\workspace\kers\Software\motor_profiling\g4\STM32CubeIDE\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="g4.map" -Wl,--gc-sections -static -L../../MCSDK_v6.3.1-Full/MotorControl/libMP --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

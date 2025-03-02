@@ -5,33 +5,33 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/Users/fluky/Desktop/g4/Src/aspep.c \
-C:/Users/fluky/Desktop/g4/Src/main.c \
-C:/Users/fluky/Desktop/g4/Src/mc_api.c \
-C:/Users/fluky/Desktop/g4/Src/mc_app_hooks.c \
-C:/Users/fluky/Desktop/g4/Src/mc_config.c \
-C:/Users/fluky/Desktop/g4/Src/mc_config_common.c \
-C:/Users/fluky/Desktop/g4/Src/mc_configuration_registers.c \
-C:/Users/fluky/Desktop/g4/Src/mc_interface.c \
-C:/Users/fluky/Desktop/g4/Src/mc_math.c \
-C:/Users/fluky/Desktop/g4/Src/mc_parameters.c \
-C:/Users/fluky/Desktop/g4/Src/mc_perf.c \
-C:/Users/fluky/Desktop/g4/Src/mc_tasks.c \
-C:/Users/fluky/Desktop/g4/Src/mc_tasks_foc.c \
-C:/Users/fluky/Desktop/g4/Src/mcp.c \
-C:/Users/fluky/Desktop/g4/Src/mcp_config.c \
-C:/Users/fluky/Desktop/g4/Src/motorcontrol.c \
-C:/Users/fluky/Desktop/g4/Src/pwm_common.c \
-C:/Users/fluky/Desktop/g4/Src/pwm_curr_fdbk.c \
-C:/Users/fluky/Desktop/g4/Src/register_interface.c \
-C:/Users/fluky/Desktop/g4/Src/regular_conversion_manager.c \
-C:/Users/fluky/Desktop/g4/Src/stm32_mc_common_it.c \
-C:/Users/fluky/Desktop/g4/Src/stm32g4xx_hal_msp.c \
-C:/Users/fluky/Desktop/g4/Src/stm32g4xx_it.c \
-C:/Users/fluky/Desktop/g4/Src/stm32g4xx_mc_it.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/aspep.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/main.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_api.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_app_hooks.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_config.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_config_common.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_configuration_registers.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_interface.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_math.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_parameters.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_perf.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_tasks.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mc_tasks_foc.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mcp.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/mcp_config.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/motorcontrol.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/pwm_common.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/pwm_curr_fdbk.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/register_interface.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/regular_conversion_manager.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/stm32_mc_common_it.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/stm32g4xx_hal_msp.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/stm32g4xx_it.c \
+C:/workspace/kers/Software/motor_profiling/g4/Src/stm32g4xx_mc_it.c \
 ../Application/User/syscalls.c \
 ../Application/User/sysmem.c \
-C:/Users/fluky/Desktop/g4/Src/usart_aspep_driver.c 
+C:/workspace/kers/Software/motor_profiling/g4/Src/usart_aspep_driver.c 
 
 OBJS += \
 ./Application/User/aspep.o \
@@ -93,57 +93,57 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Application/User/aspep.o: C:/Users/fluky/Desktop/g4/Src/aspep.c Application/User/subdir.mk
+Application/User/aspep.o: C:/workspace/kers/Software/motor_profiling/g4/Src/aspep.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/main.o: C:/Users/fluky/Desktop/g4/Src/main.c Application/User/subdir.mk
+Application/User/main.o: C:/workspace/kers/Software/motor_profiling/g4/Src/main.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_api.o: C:/Users/fluky/Desktop/g4/Src/mc_api.c Application/User/subdir.mk
+Application/User/mc_api.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_api.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_app_hooks.o: C:/Users/fluky/Desktop/g4/Src/mc_app_hooks.c Application/User/subdir.mk
+Application/User/mc_app_hooks.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_app_hooks.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_config.o: C:/Users/fluky/Desktop/g4/Src/mc_config.c Application/User/subdir.mk
+Application/User/mc_config.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_config.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_config_common.o: C:/Users/fluky/Desktop/g4/Src/mc_config_common.c Application/User/subdir.mk
+Application/User/mc_config_common.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_config_common.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_configuration_registers.o: C:/Users/fluky/Desktop/g4/Src/mc_configuration_registers.c Application/User/subdir.mk
+Application/User/mc_configuration_registers.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_configuration_registers.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_interface.o: C:/Users/fluky/Desktop/g4/Src/mc_interface.c Application/User/subdir.mk
+Application/User/mc_interface.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_interface.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_math.o: C:/Users/fluky/Desktop/g4/Src/mc_math.c Application/User/subdir.mk
+Application/User/mc_math.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_math.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_parameters.o: C:/Users/fluky/Desktop/g4/Src/mc_parameters.c Application/User/subdir.mk
+Application/User/mc_parameters.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_parameters.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_perf.o: C:/Users/fluky/Desktop/g4/Src/mc_perf.c Application/User/subdir.mk
+Application/User/mc_perf.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_perf.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_tasks.o: C:/Users/fluky/Desktop/g4/Src/mc_tasks.c Application/User/subdir.mk
+Application/User/mc_tasks.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_tasks.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mc_tasks_foc.o: C:/Users/fluky/Desktop/g4/Src/mc_tasks_foc.c Application/User/subdir.mk
+Application/User/mc_tasks_foc.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mc_tasks_foc.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mcp.o: C:/Users/fluky/Desktop/g4/Src/mcp.c Application/User/subdir.mk
+Application/User/mcp.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mcp.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/mcp_config.o: C:/Users/fluky/Desktop/g4/Src/mcp_config.c Application/User/subdir.mk
+Application/User/mcp_config.o: C:/workspace/kers/Software/motor_profiling/g4/Src/mcp_config.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/motorcontrol.o: C:/Users/fluky/Desktop/g4/Src/motorcontrol.c Application/User/subdir.mk
+Application/User/motorcontrol.o: C:/workspace/kers/Software/motor_profiling/g4/Src/motorcontrol.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/pwm_common.o: C:/Users/fluky/Desktop/g4/Src/pwm_common.c Application/User/subdir.mk
+Application/User/pwm_common.o: C:/workspace/kers/Software/motor_profiling/g4/Src/pwm_common.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/pwm_curr_fdbk.o: C:/Users/fluky/Desktop/g4/Src/pwm_curr_fdbk.c Application/User/subdir.mk
+Application/User/pwm_curr_fdbk.o: C:/workspace/kers/Software/motor_profiling/g4/Src/pwm_curr_fdbk.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/register_interface.o: C:/Users/fluky/Desktop/g4/Src/register_interface.c Application/User/subdir.mk
+Application/User/register_interface.o: C:/workspace/kers/Software/motor_profiling/g4/Src/register_interface.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/regular_conversion_manager.o: C:/Users/fluky/Desktop/g4/Src/regular_conversion_manager.c Application/User/subdir.mk
+Application/User/regular_conversion_manager.o: C:/workspace/kers/Software/motor_profiling/g4/Src/regular_conversion_manager.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/stm32_mc_common_it.o: C:/Users/fluky/Desktop/g4/Src/stm32_mc_common_it.c Application/User/subdir.mk
+Application/User/stm32_mc_common_it.o: C:/workspace/kers/Software/motor_profiling/g4/Src/stm32_mc_common_it.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/stm32g4xx_hal_msp.o: C:/Users/fluky/Desktop/g4/Src/stm32g4xx_hal_msp.c Application/User/subdir.mk
+Application/User/stm32g4xx_hal_msp.o: C:/workspace/kers/Software/motor_profiling/g4/Src/stm32g4xx_hal_msp.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/stm32g4xx_it.o: C:/Users/fluky/Desktop/g4/Src/stm32g4xx_it.c Application/User/subdir.mk
+Application/User/stm32g4xx_it.o: C:/workspace/kers/Software/motor_profiling/g4/Src/stm32g4xx_it.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/stm32g4xx_mc_it.o: C:/Users/fluky/Desktop/g4/Src/stm32g4xx_mc_it.c Application/User/subdir.mk
+Application/User/stm32g4xx_mc_it.o: C:/workspace/kers/Software/motor_profiling/g4/Src/stm32g4xx_mc_it.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 Application/User/%.o Application/User/%.su Application/User/%.cyclo: ../Application/User/%.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/usart_aspep_driver.o: C:/Users/fluky/Desktop/g4/Src/usart_aspep_driver.c Application/User/subdir.mk
+Application/User/usart_aspep_driver.o: C:/workspace/kers/Software/motor_profiling/g4/Src/usart_aspep_driver.c Application/User/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../../Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc -I../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/Any/Inc -I../../MCSDK_v6.3.1-Full/MotorControl/MCSDK/MCLib/G4xx/Inc -I../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../../Drivers/CMSIS/Include -I../../Drivers/CMSIS/DSP/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 
 clean: clean-Application-2f-User

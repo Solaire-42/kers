@@ -42,9 +42,9 @@ const GlobalConfig_reg_t globalConfig_reg =
 
 static const ApplicationConfig_reg_t M1_ApplicationConfig_reg =
 {
-  .maxMechanicalSpeed = 1000,
+  .maxMechanicalSpeed = 972,
   .maxReadableCurrent = M1_MAX_READABLE_CURRENT,
-  .nominalCurrent     = 15,
+  .nominalCurrent     = 14,
   .nominalVoltage     = 36,
   .driveType          = DRIVE_TYPE_M1,
 };
@@ -53,12 +53,12 @@ static const ApplicationConfig_reg_t M1_ApplicationConfig_reg =
 static const MotorConfig_reg_t M1_MotorConfig_reg =
 {
   .polePairs  = 10,
-  .ratedFlux  = 36.0,
-  .rs         = 0.32,
-  .ls         = 0.00034*1.000,
-  .ld         = 0.00034,
-  .maxCurrent = 15,
-  .name = "Bull Running BR2804-1700"
+  .ratedFlux  = 21.0,
+  .rs         = 0.1,
+  .ls         = 0.00014*1.000,
+  .ld         = 0.00014,
+  .maxCurrent = 14,
+  .name = "Windmeile - front"
 };
 
 static const FOCFwConfig_reg_t M1_FOCConfig_reg =

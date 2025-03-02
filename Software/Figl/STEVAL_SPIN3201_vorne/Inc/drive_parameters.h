@@ -31,7 +31,7 @@
 /******** MAIN AND AUXILIARY SPEED/POSITION SENSOR(S) SETTINGS SECTION ********/
 
 /*** Speed measurement settings ***/
-#define MAX_APPLICATION_SPEED_RPM           1000 /*!< rpm, mechanical */
+#define MAX_APPLICATION_SPEED_RPM           972 /*!< rpm, mechanical */
 #define MIN_APPLICATION_SPEED_RPM           0 /*!< rpm, mechanical, absolute value */
 #define M1_SS_MEAS_ERRORS_BEFORE_FAULTS     3 /*!< Number of speed measurement errors before main sensor goes in fault */
 
@@ -45,12 +45,12 @@
 #define F2_LOG                              LOG2((16384))
 
 /* State observer constants */
-#define GAIN1                               -23419
-#define GAIN2                               19794
+#define GAIN1                               -23698
+#define GAIN2                               14160
 
 /* Only in case PLL is used, PLL gains */
-#define PLL_KP_GAIN                         532
-#define PLL_KI_GAIN                         38
+#define PLL_KP_GAIN                         517
+#define PLL_KI_GAIN                         37
 #define PLL_KPDIV                           16384
 #define PLL_KPDIV_LOG                       LOG2((PLL_KPDIV))
 #define PLL_KIDIV                           65535
@@ -79,35 +79,35 @@
 #define ISR_FREQUENCY_HZ                    (PWM_FREQUENCY/REGULATION_EXECUTION_RATE) /*!< @brief FOC execution rate in Hz */
 
 /* Gains values for torque and flux control loops */
-#define PID_TORQUE_KP_DEFAULT               2488
-#define PID_TORQUE_KI_DEFAULT               3746
+#define PID_TORQUE_KP_DEFAULT               2036
+#define PID_TORQUE_KI_DEFAULT               1164
 #define PID_TORQUE_KD_DEFAULT               100
-#define PID_FLUX_KP_DEFAULT                 2488
-#define PID_FLUX_KI_DEFAULT                 3746
+#define PID_FLUX_KP_DEFAULT                 2036
+#define PID_FLUX_KI_DEFAULT                 1164
 #define PID_FLUX_KD_DEFAULT                 100
 
 /* Torque/Flux control loop gains dividers*/
-#define TF_KPDIV                            1024
+#define TF_KPDIV                            2048
 #define TF_KIDIV                            16384
 #define TF_KDDIV                            8192
-#define TF_KPDIV_LOG                        LOG2((1024))
+#define TF_KPDIV_LOG                        LOG2((2048))
 #define TF_KIDIV_LOG                        LOG2((16384))
 #define TF_KDDIV_LOG                        LOG2((8192))
 #define TFDIFFERENTIAL_TERM_ENABLING        DISABLE
 
-#define PID_SPEED_KP_DEFAULT                2803/(SPEED_UNIT/10) /* Workbench compute the gain for 01Hz unit*/
-#define PID_SPEED_KI_DEFAULT                11/(SPEED_UNIT/10) /* Workbench compute the gain for 01Hz unit*/
+#define PID_SPEED_KP_DEFAULT                3389/(SPEED_UNIT/10) /* Workbench compute the gain for 01Hz unit*/
+#define PID_SPEED_KI_DEFAULT                3735/(SPEED_UNIT/10) /* Workbench compute the gain for 01Hz unit*/
 #define PID_SPEED_KD_DEFAULT                0/(SPEED_UNIT/10) /* Workbench compute the gain for 01Hz unit*/
 
 /* Speed control loop */
 #define SPEED_LOOP_FREQUENCY_HZ             (uint16_t)10 /*!<Execution rate of speed regulation loop (Hz) */
 
 /* Speed PID parameter dividers */
-#define SP_KPDIV                            8192
-#define SP_KIDIV                            16384
+#define SP_KPDIV                            64
+#define SP_KIDIV                            1024
 #define SP_KDDIV                            16
-#define SP_KPDIV_LOG                        LOG2((8192))
-#define SP_KIDIV_LOG                        LOG2((16384))
+#define SP_KPDIV_LOG                        LOG2((64))
+#define SP_KIDIV_LOG                        LOG2((1024))
 #define SP_KDDIV_LOG                        LOG2((16))
 
 /* USER CODE BEGIN PID_SPEED_INTEGRAL_INIT_DIV */
@@ -115,7 +115,7 @@
 /* USER CODE END PID_SPEED_INTEGRAL_INIT_DIV */
 
 #define SPD_DIFFERENTIAL_TERM_ENABLING      DISABLE
-#define IQMAX_A                             15
+#define IQMAX_A                             14
 
 /* Default settings */
 #define DEFAULT_CONTROL_MODE                MCM_SPEED_MODE
@@ -125,7 +125,7 @@
 #define DEFAULT_FLUX_COMPONENT_A            0
 
 /**************************    FIRMWARE PROTECTIONS SECTION   *****************/
-#define OV_VOLTAGE_THRESHOLD_V              50 /*!< Over-voltage threshold */
+#define OV_VOLTAGE_THRESHOLD_V              45 /*!< Over-voltage threshold */
 #define UD_VOLTAGE_THRESHOLD_V              8 /*!< Under-voltage threshold */
 #ifdef NOT_IMPLEMENTED
 #define ON_OVER_VOLTAGE                     TURN_OFF_PWM /*!< TURN_OFF_PWM, TURN_ON_R_BRAKE or TURN_ON_LOW_SIDES */
@@ -173,7 +173,7 @@
 #define STARTING_ANGLE_DEG                  0  /*!< degrees [0...359] */
 
 /* Observer start-up output conditions  */
-#define OBS_MINIMUM_SPEED_RPM               955
+#define OBS_MINIMUM_SPEED_RPM               350
 #define NB_CONSECUTIVE_TESTS                2 /* corresponding to former
                                                  NB_CONSECUTIVE_TESTS / (TF_REGULATION_RATE / MEDIUM_FREQUENCY_TASK_RATE) */
 #define SPEED_BAND_UPPER_LIMIT              17 /*!< It expresses how much estimated speed can exceed forced stator electrical
