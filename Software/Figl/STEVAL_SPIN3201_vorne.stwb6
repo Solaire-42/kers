@@ -1,7 +1,7 @@
 {
   "description": "This project must be generated with the Data Log feature disabled into the User Interface Area of the WB (done by default). Besides, to free some code and data FLASH memory, allowing the compilation of the project, the flag LOW_MEMORY_FOOTPRINT_REG must be set into the STM32CubeMx tool (Midelware, MotorControl, ParameterSetting area).  A new generation of the code must be done from STM32CubeMx. If compilation is still failing, a second flag LOW_MEMORY_FOOTPRINT_REG2 can be set.",
   "checkList": {},
-  "version": 10,
+  "version": 11,
   "workBenchVersion": "6.3.1",
   "workBenchVersionFileCreation": "6.3.0-A2",
   "algorithm": "FOC",
@@ -362,39 +362,26 @@
     ],
     "motor": [
       {
-        "id": "BR2804-1700kv",
-        "label": "Bull Running BR2804-1700kv",
-        "hardwareFamily": "MOTOR",
-        "description": "External rotor type - 7 poles pairs brushless - DC motor",
+        "BEmfConstant": 20.975313186645508,
         "compatibility": [
           "FOC",
           "sixStep"
         ],
-        "polePairs": 7,
-        "nominalCurrent": 1.2,
-        "nominalDCVoltage": 12,
-        "rs": 0.11,
-        "ls": 0.018,
+        "description": "36V 250W BLDC drive",
+        "friction": 90.18,
+        "hardwareFamily": "MOTOR",
+        "id": "userMotor.Windmeile - front.json",
+        "inertia": 130.95,
+        "label": "Windmeile - front",
+        "ls": 0.14,
         "magneticStructure": {
           "type": "SM-PMSM"
         },
-        "BEmfConstant": 0.4,
-        "inertia": 0.34808465443347814,
-        "friction": 0.4372922433049098,
-        "maxRatedSpeed": 14000,
-        "motorProfiler": {
-          "ctrl_board": "NUCLEO-F302R8",
-          "pwr_board": "X-NUCLEO-IHM07M1",
-          "operating_condition": {
-            "cutoff_frequency": 6000,
-            "pwm_frequency": 30000,
-            "foc_rate": 1
-          },
-          "mechanical": {
-            "acceleration": 1000,
-            "max_speed_startup": 3333
-          }
-        }
+        "maxRatedSpeed": 972,
+        "nominalCurrent": 14,
+        "nominalDCVoltage": 36.223846435546875,
+        "polePairs": 10,
+        "rs": 0.10000000149011612
       }
     ],
     "connections": [
@@ -745,33 +732,6 @@
           }
         }
       },
-      "motor_0": {
-        "label": "Windmeile vorne",
-        "description": "",
-        "polePairs": 10,
-        "mmsType": "SM-PMSM",
-        "rs": 0.32,
-        "ls": 0.34,
-        "mmsLd_lq_ratio": "Number.NaN",
-        "maxCurrent": 15,
-        "maxDCVoltage": 36,
-        "BEmfConstant": 36,
-        "inertia": 50,
-        "friction": 1,
-        "maxRatedSpeed": 1000,
-        "hasHallSensor": false,
-        "hallSensor": {
-          "sensorsDisplacement": "Number.NaN",
-          "placementElectricalAngle": "Number.NaN"
-        },
-        "hasQuadratureEncoder": false,
-        "quadratureEncoder": {
-          "pulsesPerMechanicalRevolution": "Number.NaN",
-          "hasIndexPin": false
-        },
-        "nominalCurrent": "Number.NaN",
-        "nominalDCVoltage": "Number.NaN"
-      },
       "speedSensing_0": {
         "mainSensorParams": {
           "speedSensorMode": "",
@@ -805,7 +765,7 @@
         },
         "auxSensorParams": {
           "enableAuxSensing": false,
-          "speedSensorMode": "",
+          "speedSensorMode": "cordic",
           "maxAllowedErrors": "Number.NaN",
           "sensorParams": {
             "_tag": "cordic",
@@ -881,7 +841,7 @@
       },
       "driveManagement_0": {
         "currentReg": {
-          "controlMode": "",
+          "controlMode": "speed",
           "autoPI": true,
           "KpKi": {
             "P": "Number.NaN",
@@ -1040,8 +1000,8 @@
       },
       "busVoltageSensing_0": {
         "ovp": {
-          "enable": false,
-          "threshold": "Number.NaN",
+          "enable": true,
+          "threshold": 45,
           "onOverVoltage": "",
           "brake": {
             "polarity": "",
@@ -1067,6 +1027,47 @@
         "samplingTime": "Number.NaN",
         "adc_freq": "Number.NaN",
         "enableSensing": true
+      },
+      "speedSensingSel_0": {
+        "mainSensorParams": {
+          "speedSensorMode": "pll"
+        }
+      },
+      "stageConfig_0": {
+        "potentiometer": {
+          "enable": false,
+          "samplingTime": "Number.NaN"
+        },
+        "esc": {
+          "enabled": false
+        }
+      },
+      "motor_0": {
+        "label": "",
+        "description": "",
+        "polePairs": "Number.NaN",
+        "mmsType": "",
+        "rs": "Number.NaN",
+        "ls": "Number.NaN",
+        "mmsLd_lq_ratio": "Number.NaN",
+        "maxCurrent": "Number.NaN",
+        "maxDCVoltage": "Number.NaN",
+        "BEmfConstant": "Number.NaN",
+        "inertia": "Number.NaN",
+        "friction": "Number.NaN",
+        "maxRatedSpeed": "Number.NaN",
+        "hasHallSensor": true,
+        "hallSensor": {
+          "sensorsDisplacement": "Number.NaN",
+          "placementElectricalAngle": "Number.NaN"
+        },
+        "hasQuadratureEncoder": false,
+        "quadratureEncoder": {
+          "pulsesPerMechanicalRevolution": "Number.NaN",
+          "hasIndexPin": false
+        },
+        "nominalCurrent": "Number.NaN",
+        "nominalDCVoltage": "Number.NaN"
       }
     }
   }
